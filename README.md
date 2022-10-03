@@ -19,6 +19,12 @@ The game opens up to a main menu. Only the "Start Game" button does anything - t
 
 Running `yarn dev` runs the game in development mode, which produces larger bundle sizes but compiles faster and provides better debug support. If you desire a smaller game bundle or to host your game on a server, you can use `yarn build:prod` to compile the project into an optimized bundle. You can use `yarn prod` to run your game locally with production compilation, but this will cause your hot reloading to take longer.
 
+If you run into `NODE_ENV` is not recognized, install the following globally
+
+```bash
+npm install -g win-node-env
+```
+
 ## Extensions
 
 You can edit this code with any text editor. VS Code is recommended, though. If you download the Prettier and ESLint extensions, you can get automatic code formatting to work.
